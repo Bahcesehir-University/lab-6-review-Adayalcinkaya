@@ -68,7 +68,7 @@ public:
     // Print: "Student [name] destroyed"
     ~Student() {
         // YOUR CODE HERE
-        cout<<"Student "<<name<<" destroyed";
+        cout<<"Student "<<name<<" destroyed"<<endl;
     }
 
     // ----- Task 2: Getters (Encapsulation) -----
@@ -107,7 +107,7 @@ public:
     // If out of range, keep current GPA.
     void setGpa(double g) {
         // YOUR CODE HERE
-        if(gpa>=0.0 && gpa<=4.0){
+        if(g>=0.0 && g<=4.0){
             gpa = g;
         }
     }
